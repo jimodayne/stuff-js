@@ -1,5 +1,5 @@
 (function () {
-    var iframe = document.getElementById('h5p-iframe-767');
+    var iframe = document.querySelector('iframe');
     var controlRef = iframe.contentWindow.document.querySelector('.h5p-controls');
     var videoRef = iframe.contentWindow.document.querySelector('video');
     controlRef.style.display = 'none';
